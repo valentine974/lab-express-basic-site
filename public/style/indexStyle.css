@@ -1,6 +1,33 @@
 body {
-    background-image: url(../images/CR45LOXVEAADG5E.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(to bottom left, darkred, purple, green);
+    height: 800px;
+}
 
+h1, h2 {
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#lucas {
+    width: 15%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row; 
+
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+#about-button {
+    margin-right: 100px;
 }
