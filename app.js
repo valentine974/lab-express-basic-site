@@ -6,7 +6,7 @@ app.get('/home',(request,response)=> {
     response.sendFile(__dirname + '/views/index.html')
 })
 
-app.get('/about',(request,response)=> {
+app.get('/about',(request,response)=> { 
     response.sendFile(__dirname + '/views/about.html')})
 
 app.get('/works',(request,response)=> {
