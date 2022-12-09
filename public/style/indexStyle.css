@@ -1,11 +1,28 @@
-body {
+/* body {
     background-image: linear-gradient(to bottom left, darkred, purple, green);
     height: 800px;
-}
+} */
 
 h1, h2 {
     color: white;
     text-shadow: 3px 3px black;
+}
+
+body {
+    background-image: url('/images/Starfield.webp');
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+    font-size: 20px; 
+    border: none;
+    background-color: rgba(35, 35, 35, 0); 
+}
+
+
+a {
+    color: yellow;
+    text-decoration: none;
 }
 
 #lucas {

@@ -1,4 +1,87 @@
 body {
-    background-image: linear-gradient(to bottom left, darkred, purple,);
-    height: 800px;
+    background-image: url('/images/star-wars-backgrounds-16.jpg');
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+nav {
+    background-color: rgba(35, 35, 35, 0.7);
+    list-style: none;
+    padding: 30px;
+    margin: -10px -10px 0px -10px;
+    height: 30px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+
+button {
+    font-size: 20px; 
+    border: none;
+    background-color: rgba(35, 35, 35, 0);
+}
+
+a {
+    color: #557DBC;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkred;
+    font-weight: bolder;
+    padding-left: 300px;
+    text-transform: uppercase;
+
+}
+#title {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 70px;
+    padding: 10px;
+}
+#movieList {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    background-color: rgba(35, 35, 35, 0.3);
+    border-radius: 50px;
+    margin: 30px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+h2 {
+    color: white;
+
+    font-size: 30px;
+    padding: 0;
+    
+}
+h3{
+    color: lightgrey;
+    font-size: 20px;
+    padding: 0;
+    
+}
+
+li {
+    padding: 20px;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+

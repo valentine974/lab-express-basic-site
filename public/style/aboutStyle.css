@@ -1,4 +1,39 @@
 body {
-    background-image: linear-gradient(to bottom left, darkred, green);
-    height: 800px;
+    background-image: url('/images/star-wars-backgrounds-16.jpg');
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: rgba(35, 35, 35, 0.7);
+    list-style: none;
+    padding: 30px;
+    margin: -10px -10px 0px -10px;
+    height: 30px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    
+}
+
+button {
+    font-size: 20px; 
+    border: none;
+    background-color: rgba(35, 35, 35, 0);
+}
+
+a {
+    color: #557DBC;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkred;
+    font-weight: bolder;
+    padding-left: 300px;
+    text-transform: uppercase;
+
 }
